@@ -1,0 +1,33 @@
+{
+  "name": "trade-in",
+  "version": "1.0.0",
+  "description": "Webaplication",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "http-errors": "^1.6.2",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.9"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "test": "test",
+    "devs": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orresho/traders-inn.git"
+  },
+  "author": "Daniel Ekerot, Orhan Hajderovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Orresho/traders-inn/issues"
+  },
+  "homepage": "https://github.com/Orresho/traders-inn#readme"
+}
