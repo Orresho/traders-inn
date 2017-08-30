@@ -4,12 +4,21 @@
   "description": "Webaplication",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.15.4"
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "http-errors": "^1.6.2",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.9"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0",
+    "nodemon": "^1.11.0"
+  },
   "scripts": {
     "test": "test",
-    "start": "node server.js"
+    "devs": "nodemon server.js"
   },
   "repository": {
     "type": "git",
