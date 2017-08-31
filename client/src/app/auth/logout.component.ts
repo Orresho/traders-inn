@@ -4,5 +4,5 @@ import { Component } from '@angular/core';
     selector: 'app-logout'
 })
 export class LogoutComponent{
-
+    
 }
