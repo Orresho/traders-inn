@@ -14,6 +14,6 @@ var schema = new Schema({
     adress: {type: String, required}
 });
 
-Schema.plugin(uniqueValidator);
+schema.plugin(uniqueValidator);
 
 module.exports = mongoose.model('User', schema);
