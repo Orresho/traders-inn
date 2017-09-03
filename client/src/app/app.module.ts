@@ -1,6 +1,6 @@
 import { LogoutComponent } from './auth/logout.component';
 import { SignupComponent } from './auth/signup.component';
-import { SigninComponent } from './auth/signing.component';
+import { SigninComponent } from './auth/signin.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -19,7 +19,10 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    LogoutComponent,
+    SigninComponent,
+    SignupComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
