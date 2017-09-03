@@ -7,11 +7,11 @@ var schema = new Schema({
     password: { type: String, required: true, minlength: 8 },
     email: { type: String, required: true, unique },
     firstName: { type: String, required: true },
-    lastName: {type: String, required},
+    lastName: {type: String, required: true},
     phone: {type: String},
-    city: {type: String, required},
-    postalCode: {type: String, required},
-    adress: {type: String, required}
+    city: {type: String, required: true},
+    postalCode: {type: String, required: true},
+    adress: {type: String, required: true}
 });
 
 schema.plugin(uniqueValidator);

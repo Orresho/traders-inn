@@ -1,4 +1,4 @@
-import { routing } from './app.router';
+import { routing } from './app.routing';
 import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './header.component';
 import { LogoutComponent } from './auth/logout.component';
@@ -6,7 +6,7 @@ import { SignupComponent } from './auth/signup.component';
 import { SigninComponent } from './auth/signin.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
@@ -25,7 +25,8 @@ import { AppComponent } from './app.component';
     FormsModule,
     HttpModule,
     RouterModule,
-    routing
+    routing,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
