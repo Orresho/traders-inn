@@ -1,3 +1,4 @@
+import { HeaderComponent } from './header.component';
 import { LogoutComponent } from './auth/logout.component';
 import { SignupComponent } from './auth/signup.component';
 import { SigninComponent } from './auth/signin.component';
@@ -13,7 +14,8 @@ import { AppComponent } from './app.component';
     AppComponent,
     SigninComponent,
     SignupComponent,
-    LogoutComponent
+    LogoutComponent,
+    HeaderComponent
     
   ],
   imports: [
