@@ -1,3 +1,5 @@
+import { routing } from './app.router';
+import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './header.component';
 import { LogoutComponent } from './auth/logout.component';
 import { SignupComponent } from './auth/signup.component';
@@ -22,9 +24,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    LogoutComponent,
-    SigninComponent,
-    SignupComponent
+    RouterModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
